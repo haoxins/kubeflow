@@ -1,13 +1,13 @@
 import setuptools
 
 REQUIRES = [
-    "Flask >= 1.1.1",
-    "Flask-API >= 2.0",
+    "Flask >= 2.1.2",
+    "Flask-API >= 3.0",
     "kubernetes == 22.6.0",
     "requests >= 2.22.0",
     "urllib3 >= 1.25.7",
-    "Werkzeug >= 0.16.0",
-    "Flask-Cors >= 3.0.8",
+    "Werkzeug >= 2.1.2",
+    "Flask-Cors >= 3.0.10",
 ]
 
 setuptools.setup(
